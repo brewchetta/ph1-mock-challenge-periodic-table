@@ -2,6 +2,8 @@
 
 Your task today is to complete a digital periodic table of elements. Some code has already been constructed however the table itself is blank and needs to be filled in with data. Notably, you and your partner(s) will be using OOJS and class syntax to track and fill in each atomic element.
 
+The idea is you'll use a class that automatically tracks a corresponding html element and manipulates it as need be. Since this is the case, handle as much of the DOM manipulation through the class itself as you can.
+
 ## Getting Started
 
 Fork and clone the repository. Take some time to look through and understand the code that's already been written. Once you're ready, start a new server with `json-server --watch db.json` and open the `index.html` file with your favorite browser.
