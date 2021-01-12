@@ -1,0 +1,948 @@
+{
+  "elements": [
+    {
+      "id": 1,
+      "name": "Hydrogen",
+      "symbol": "H",
+      "atomicWeight": 1.008,
+      "electronsPerShell": [1],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 3,
+      "name": "Lithium",
+      "symbol": "Li",
+      "atomicWeight": 6.94,
+      "electronsPerShell": [2,1],
+      "category": "alkali metal"
+    },
+    {
+      "id": 11,
+      "name": "Sodium",
+      "symbol": "Na",
+      "atomicWeight": 22.990,
+      "electronsPerShell": [2,8,1],
+      "category": "alkali metals"
+    },
+    {
+      "id": 19,
+      "name": "Potassium",
+      "symbol": "K",
+      "atomicWeight": 39.098,
+      "electronsPerShell": [2,8,8,1],
+      "category": "alkali metals"
+    },
+    {
+      "id": 37,
+      "name": "Rubidium",
+      "symbol": "Rb",
+      "atomicWeight": 85.468,
+      "electronsPerShell": [2,8,8,1],
+      "category": "alkali metals"
+    },
+    {
+      "id": 55,
+      "name": "Caesium",
+      "symbol": "Cs",
+      "atomicWeight": 132.91,
+      "electronsPerShell": [2,8,18,18,8,1],
+      "category": "alkali metals"
+    },
+    {
+      "id": 87,
+      "name": "Francium",
+      "symbol": "Fr",
+      "atomicWeight": 223,
+      "electronsPerShell": [2,8,18,32,18,8,1],
+      "category": "alkali metals"
+    },
+    {
+      "id": 4,
+      "name": "Beryllium",
+      "symbol": "Be",
+      "atomicWeight": 9.0122,
+      "electronsPerShell": [2,2],
+      "category": "alkaline earth metal"
+    },
+    {
+      "id": 12,
+      "name": "Magnesium",
+      "symbol": "Mg",
+      "atomicWeight": 24.305,
+      "electronsPerShell": [2,8,2],
+      "category": "alkaline earth metal"
+    },
+    {
+      "id": 20,
+      "name": "Calcium",
+      "symbol": "Ca",
+      "atomicWeight": 40.078,
+      "electronsPerShell": [2,8,8,2],
+      "category": "alkaline earth metal"
+    },
+    {
+      "id": 38,
+      "name": "Strontium",
+      "symbol": "Sr",
+      "atomicWeight": 87.62,
+      "electronsPerShell": [2,8,18,8,2],
+      "category": "alkaline earth metal"
+    },
+    {
+      "id": 56,
+      "name": "Barium",
+      "symbol": "Ba",
+      "atomicWeight": 137.33,
+      "electronsPerShell": [2,8,18,18,8,2],
+      "category": "alkaline earth metal"
+    },
+    {
+      "id": 88,
+      "name": "Radium",
+      "symbol": "Ra",
+      "atomicWeight": 226,
+      "electronsPerShell": [2,8,18,32,18,8,2],
+      "category": "alkaline earth metal"
+    },
+    {
+      "id": 21,
+      "name": "Scandium",
+      "symbol": "Sc",
+      "atomicWeight": 44.956,
+      "electronsPerShell": [2,8,9,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 39,
+      "name": "Yttrium",
+      "symbol": "Y",
+      "atomicWeight": 88.906,
+      "electronsPerShell": [2,8,18,9,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 22,
+      "name": "Titanium",
+      "symbol": "Ti",
+      "atomicWeight": 47.867,
+      "electronsPerShell": [2,8,10,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 40,
+      "name": "Zirconium",
+      "symbol": "Zr",
+      "atomicWeight": 91.224,
+      "electronsPerShell": [2,8,18,10,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 72,
+      "name": "Hafnium",
+      "symbol": "Hf",
+      "atomicWeight": 178.49,
+      "electronsPerShell": [2,8,18,32,10,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 104,
+      "name": "Rutherfordium",
+      "symbol": "Rf",
+      "atomicWeight": 267,
+      "electronsPerShell": [2,8,18,32,32,10,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 23,
+      "name": "Vanadium",
+      "symbol": "V",
+      "atomicWeight": 50.942,
+      "electronsPerShell": [2,8,11,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 41,
+      "name": "Niobium",
+      "symbol": "Nb",
+      "atomicWeight": 92.906,
+      "electronsPerShell": [2,8,18,12,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 73,
+      "name": "Tantalum",
+      "symbol": "Ta",
+      "atomicWeight": 180.95,
+      "electronsPerShell": [2,8,18,32,11,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 105,
+      "name": "Dubnium",
+      "symbol": "Db",
+      "atomicWeight": 268,
+      "electronsPerShell": [2,8,18,32,32,11,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 24,
+      "name": "Chromium",
+      "symbol": "Cr",
+      "atomicWeight": 51.996,
+      "electronsPerShell": [2,8,13,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 42,
+      "name": "Molybdenum",
+      "symbol": "Mo",
+      "electronsPerShell": [2,8,18,13,1],
+      "atomicWeight": 95.95,
+      "category": "transition metal"
+    },
+    {
+      "id": 74,
+      "name": "Tungsten",
+      "symbol": "W",
+      "atomicWeight": 183.84,
+      "electronsPerShell": [2,8,18,32,12,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 106,
+      "name": "Seaborgium",
+      "symbol": "Sg",
+      "atomicWeight": 269,
+      "electronsPerShell": [2,8,18,32,32,12,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 25,
+      "name": "Manganese",
+      "symbol": "Mn",
+      "atomicWeight": 54.938,
+      "electronsPerShell": [2,8,13,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 43,
+      "name": "Technetium",
+      "symbol": "Tc",
+      "atomicWeight": 98,
+      "electronsPerShell": [2,8,18,13,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 75,
+      "name": "Rhenium",
+      "symbol": "Re",
+      "atomicWeight": 186.21,
+      "electronsPerShell": [2,8,18,32,13,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 107,
+      "name": "Bohrium",
+      "symbol": "Bh",
+      "atomicWeight": 270,
+      "electronsPerShell": [2,8,18,32,32,13,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 26,
+      "name": "Iron",
+      "symbol": "Fe",
+      "atomicWeight": 55.845,
+      "electronsPerShell": [2,8,14,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 44,
+      "name": "Ruthenium",
+      "symbol": "Ru",
+      "atomicWeight": 101.07,
+      "electronsPerShell": [2,8,18,15,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 76,
+      "name": "Osmium",
+      "symbol": "Os",
+      "atomicWeight": 190.23,
+      "electronsPerShell": [2,8,18,32,14,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 108,
+      "name": "Hassium",
+      "symbol": "Hs",
+      "atomicWeight": 277,
+      "electronsPerShell": [2,8,18,32,32,14,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 27,
+      "name": "Cobalt",
+      "symbol": "Co",
+      "atomicWeight": 58.933,
+      "electronsPerShell": [2,8,15,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 45,
+      "name": "Rhodium",
+      "symbol": "Rh",
+      "atomicWeight": 102.91,
+      "electronsPerShell": [2,8,18,16,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 77,
+      "name": "Iridium",
+      "symbol": "Ir",
+      "atomicWeight": 192.22,
+      "electronsPerShell": [2,8,18,32,15,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 28,
+      "name": "Nickel",
+      "symbol": "Ni",
+      "atomicWeight": 58.693,
+      "electronsPerShell": [2,8,16,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 46,
+      "name": "Palladium",
+      "symbol": "Pd",
+      "atomicWeight": 106.42,
+      "electronsPerShell": [2,8,18,18],
+      "category": "transition metal"
+    },
+    {
+      "id": 78,
+      "name": "Platinum",
+      "symbol": "Pt",
+      "atomicWeight": 195.08,
+      "electronsPerShell": [2,8,18,32,17,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 29,
+      "name": "Copper",
+      "symbol": "Cu",
+      "atomicWeight": 63.546,
+      "electronsPerShell": [2,8,18,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 47,
+      "name": "Silver",
+      "symbol": "Ag",
+      "atomicWeight": 107.87,
+      "electronsPerShell": [2,8,18,18,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 79,
+      "name": "Gold",
+      "symbol": "Au",
+      "atomicWeight": 196.97,
+      "electronsPerShell": [2,8,18,32,18,1],
+      "category": "transition metal"
+    },
+    {
+      "id": 30,
+      "name": "Zinc",
+      "symbol": "Zn",
+      "atomicWeight": 65.38,
+      "electronsPerShell": [2,8,18,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 48,
+      "name": "Cadmium",
+      "symbol": "Cd",
+      "atomicWeight": 112.41,
+      "electronsPerShell": [2,8,18,18,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 80,
+      "name": "Mercury",
+      "symbol": "Hg",
+      "atomicWeight": 200.59,
+      "electronsPerShell": [2,8,18,32,18,2],
+      "category": "transition metal"
+    },
+    {
+      "id": 13,
+      "name": "Aluminum",
+      "symbol": "Al",
+      "atomicWeight": 26.982,
+      "electronsPerShell": [2,8,3],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 31,
+      "name": "Gallium",
+      "symbol": "Ga",
+      "atomicWeight": 69.723,
+      "electronsPerShell": [2,8,18,3],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 49,
+      "name": "Indium",
+      "symbol": "In",
+      "atomicWeight": 114.82,
+      "electronsPerShell": [2,8,18,18,3],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 81,
+      "name": "Thallium",
+      "symbol": "Tl",
+      "atomicWeight": 204.38,
+      "electronsPerShell": [2,8,18,32,18,3],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 50,
+      "name": "Tin",
+      "symbol": "Sn",
+      "atomicWeight": 118.71,
+      "electronsPerShell": [2,8,18,18,4],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 82,
+      "name": "Lead",
+      "symbol": "Pb",
+      "atomicWeight": 207.2,
+      "electronsPerShell": [2,8,18,32,18,4],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 83,
+      "name": "Bismuth",
+      "symbol": "Bi",
+      "atomicWeight": 208.98,
+      "electronsPerShell": [2,8,18,32,18,5],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 84,
+      "name": "Polonium",
+      "symbol": "Po",
+      "atomicWeight": 209,
+      "electronsPerShell": [2,8,18,32,18,6],
+      "category": "post-transition metal"
+    },
+    {
+      "id": 5,
+      "name": "Boron",
+      "symbol": "B",
+      "atomicWeight": 10.81,
+      "electronsPerShell": [2,3],
+      "category": "metalloid"
+    },
+    {
+      "id": 14,
+      "name": "Silicon",
+      "symbol": "Si",
+      "atomicWeight": 28.085,
+      "electronsPerShell": [2,8,4],
+      "category": "metalloid"
+    },
+    {
+      "id": 32,
+      "name": "Germanium",
+      "symbol": "Ge",
+      "atomicWeight": 72.630,
+      "electronsPerShell": [2,8,18,4],
+      "category": "metalloid"
+    },
+    {
+      "id": 33,
+      "name": "Arsenic",
+      "symbol": "As",
+      "atomicWeight": 74.922,
+      "electronsPerShell": [2,8,18,5],
+      "category": "metalloid"
+    },
+    {
+      "id": 51,
+      "name": "Antimony",
+      "symbol": "Sb",
+      "atomicWeight": 121.76,
+      "electronsPerShell": [2,8,18,18,5],
+      "category": "metalloid"
+    },
+    {
+      "id": 52,
+      "name": "Tellurium",
+      "symbol": "Te",
+      "atomicWeight": 127.60,
+      "electronsPerShell": [2,8,18,18,6],
+      "category": "metalloid"
+    },
+    {
+      "id": 85,
+      "name": "Astatine",
+      "symbol": "At",
+      "atomicWeight": 210,
+      "electronsPerShell": [2,8,18,32,18,7],
+      "category": "metalloid"
+    },
+    {
+      "id": 6,
+      "name": "Carbon",
+      "symbol": "C",
+      "atomicWeight": 12.011,
+      "electronsPerShell": [2,4],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 7,
+      "name": "Nitrogen",
+      "symbol": "N",
+      "atomicWeight": 14.007,
+      "electronsPerShell": [2,5],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 8,
+      "name": "Oxygen",
+      "symbol": "O",
+      "atomicWeight": 15.999,
+      "electronsPerShell": [2,6],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 9,
+      "name": "Fluorine",
+      "symbol": "F",
+      "atomicWeight": 18.998,
+      "electronsPerShell": [2,7],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 17,
+      "name": "Chlorine",
+      "symbol": "Cl",
+      "atomicWeight": 35.45,
+      "electronsPerShell": [2,8,7],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 16,
+      "name": "Sulfur",
+      "symbol": "S",
+      "atomicWeight": 32.06,
+      "electronsPerShell": [2,8,6],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 15,
+      "name": "Phosphorous",
+      "symbol": "P",
+      "atomicWeight": 30.974,
+      "electronsPerShell": [2,8,5],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 34,
+      "name": "Selenium",
+      "symbol": "Se",
+      "atomicWeight": 78.971,
+      "electronsPerShell": [2,8,18,6],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 35,
+      "name": "Bromine",
+      "symbol": "Br",
+      "atomicWeight": 79.904,
+      "electronsPerShell": [2,8,18,7],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 53,
+      "name": "Iodine",
+      "symbol": "I",
+      "atomicWeight": 126.90,
+      "electronsPerShell": [2,8,18,18,7],
+      "category": "reactive non-metal"
+    },
+    {
+      "id": 2,
+      "name": "Helium",
+      "symbol": "He",
+      "atomicWeight": 4.0026,
+      "electronsPerShell": [2],
+      "category": "noble gas"
+    },
+    {
+      "id": 10,
+      "name": "Neon",
+      "symbol": "Ne",
+      "atomicWeight": 20.180,
+      "electronsPerShell": [2,8],
+      "category": "noble gas"
+    },
+    {
+      "id": 18,
+      "name": "Argon",
+      "symbol": "Ar",
+      "atomicWeight": 39.948,
+      "electronsPerShell": [2,8,8],
+      "category": "noble gas"
+    },
+    {
+      "id": 36,
+      "name": "Krypton",
+      "symbol": "Kr",
+      "atomicWeight": 83.798,
+      "electronsPerShell": [2,8,18,8],
+      "category": "noble gas"
+    },
+    {
+      "id": 54,
+      "name": "Xenon",
+      "symbol": "Xe",
+      "atomicWeight": 131.29,
+      "electronsPerShell": [2,8,18,18,8],
+      "category": "noble gas"
+    },
+    {
+      "id": 86,
+      "name": "Radon",
+      "symbol": "Rn",
+      "atomicWeight": 222,
+      "electronsPerShell": [2,8,18,32,18,8],
+      "category": "noble gas"
+    },
+    {
+      "id": 57,
+      "name": "Lanthanum",
+      "symbol": "La",
+      "atomicWeight": 138.91,
+      "electronsPerShell": [2,8,18,18,9,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 58,
+      "name": "Cerium",
+      "symbol": "Ce",
+      "atomicWeight": 140.12,
+      "electronsPerShell": [2,8,18,19,9,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 59,
+      "name": "Praseodymium",
+      "symbol": "Pr",
+      "atomicWeight": 140.91,
+      "electronsPerShell": [2,8,18,21,8],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 60,
+      "name": "Neodymium",
+      "symbol": "Nd",
+      "atomicWeight": 144.24,
+      "electronsPerShell": [2,8,18,22,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 61,
+      "name": "Promethiu,",
+      "symbol": "Pm",
+      "atomicWeight": 145,
+      "electronsPerShell": [2,8,18,23,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 62,
+      "name": "Samarium",
+      "symbol": "Sm",
+      "atomicWeight": 150.36,
+      "electronsPerShell": [2,8,18,24,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 63,
+      "name": "Europium",
+      "symbol": "Eu",
+      "atomicWeight": 151.96,
+      "electronsPerShell": [2,8,18,25,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 64,
+      "name": "Gadolinium",
+      "symbol": "Gd",
+      "atomicWeight": 157.25,
+      "electronsPerShell": [2,8,18,25,9,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 65,
+      "name": "Terbium",
+      "symbol": "Tb",
+      "atomicWeight": 158.93,
+      "electronsPerShell": [2,8,18,27,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 66,
+      "name": "Dysprosium",
+      "symbol": "Dy",
+      "atomicWeight": 162.50,
+      "electronsPerShell": [2,8,18,28,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 67,
+      "name": "Holmium",
+      "symbol": "Ho",
+      "atomicWeight": 164.93,
+      "electronsPerShell": [2,8,18,29,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 68,
+      "name": "Erbium",
+      "symbol": "Er",
+      "atomicWeight": 167.26,
+      "electronsPerShell": [2,8,18,30,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 69,
+      "name": "Thulium",
+      "symbol": "Tm",
+      "atomicWeight": 168.93,
+      "electronsPerShell": [2,8,18,31,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 70,
+      "name": "Ytterbium",
+      "symbol": "Yb",
+      "atomicWeight": 173.05,
+      "electronsPerShell": [2,8,18,32,8,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 71,
+      "name": "Lutetium",
+      "symbol": "Lu",
+      "atomicWeight": 174.97,
+      "electronsPerShell": [2,8,18,32,9,2],
+      "category": "lanthanoid"
+    },
+    {
+      "id": 89,
+      "name": "Actinium",
+      "symbol": "Ac",
+      "atomicWeight": 227,
+      "electronsPerShell": [2,8,18,32,18,9,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 90,
+      "name": "Thorium",
+      "symbol": "Th",
+      "atomicWeight": 232.04,
+      "electronsPerShell": [2,8,18,32,18,19,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 91,
+      "name": "Protactinium",
+      "symbol": "Pa",
+      "atomicWeight": 231.04,
+      "electronsPerShell": [2,8,18,32,20,9,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 92,
+      "name": "Uranium",
+      "symbol": "U",
+      "atomicWeight": 238.03,
+      "electronsPerShell": [2,8,18,32,21,9,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 93,
+      "name": "Neptunium",
+      "symbol": "Np",
+      "atomicWeight": 237,
+      "electronsPerShell": [2,8,18,32,22,9,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 94,
+      "name": "Plutonium",
+      "symbol": "Pu",
+      "atomicWeight": 244,
+      "electronsPerShell": [2,8,18,32,24,8,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 95,
+      "name": "Americium",
+      "symbol": "Am",
+      "atomicWeight": 243,
+      "electronsPerShell": [2,8,18,32,25,8,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 96,
+      "name": "Curium",
+      "symbol": "Cm",
+      "atomicWeight": 247,
+      "electronsPerShell": [2,8,18,32,25,9,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 97,
+      "name": "Berkelium",
+      "symbol": "Bk",
+      "atomicWeight": 247,
+      "electronsPerShell": [2,8,18,32,27,8,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 98,
+      "name": "Californium",
+      "symbol": "Cf",
+      "atomicWeight": 251,
+      "electronsPerShell": [2,8,18,32,28,8,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 99,
+      "name": "Einsteinium",
+      "symbol": "Es",
+      "atomicWeight": 252,
+      "electronsPerShell": [2,8,18,32,29,8,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 100,
+      "name": "Fermium",
+      "symbol": "Fm",
+      "atomicWeight": 257,
+      "electronsPerShell": [2,8,18,32,30,8,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 101,
+      "name": "Mendelevium",
+      "symbol": "Md",
+      "atomicWeight": 258,
+      "electronsPerShell": [2,8,18,32,31,8,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 102,
+      "name": "Nobelium",
+      "symbol": "No",
+      "atomicWeight": 259,
+      "electronsPerShell": [2,8,18,32,32,9,2],
+      "category": "actinoid"
+    },
+    {
+      "id": 103,
+      "name": "Lawrencium",
+      "symbol": "Lr",
+      "atomicWeight": 266,
+      "electronsPerShell": [2,8,18,32,32,8,3],
+      "category": "actinoid"
+    },
+    {
+      "id": 109,
+      "name": "Meitnerium",
+      "symbol": "Mt",
+      "atomicWeight": 278,
+      "electronsPerShell": [2,8,18,32,32,15,2],
+      "category": "unknown"
+    },
+    {
+      "id": 110,
+      "name": "Darmstadtium",
+      "symbol": "Ds",
+      "atomicWeight": 281,
+      "electronsPerShell": [2,8,18,32,32,17,1],
+      "category": "unknown"
+    },
+    {
+      "id": 111,
+      "name": "Roentgenium",
+      "symbol": "Rg",
+      "atomicWeight": 282,
+      "electronsPerShell": [2,8,18,32,32,17,2],
+      "category": "unknown"
+    },
+    {
+      "id": 112,
+      "name": "Copernicium",
+      "symbol": "Cn",
+      "atomicWeight": 285,
+      "electronsPerShell": [2,8,18,32,32,18,2],
+      "category": "unknown"
+    },
+    {
+      "id": 113,
+      "name": "Nihonium",
+      "symbol": "Nh",
+      "atomicWeight": 286,
+      "electronsPerShell": [2,8,18,32,32,18,3],
+      "category": "unknown"
+    },
+    {
+      "id": 114,
+      "name": "Flerovium",
+      "symbol": "Fl",
+      "atomicWeight": 289,
+      "electronsPerShell": [2,8,18,32,32,18,4],
+      "category": "unknown"
+    },
+    {
+      "id": 115,
+      "name": "Moscovium",
+      "symbol": "Mc",
+      "atomicWeight": 290,
+      "electronsPerShell": [2,8,18,32,32,19,5],
+      "category": "unknown"
+    },
+    {
+      "id": 116,
+      "name": "Livermorium",
+      "symbol": "Lv",
+      "atomicWeight": 293,
+      "electronsPerShell": [2,8,18,32,32,18,6],
+      "category": "unknown"
+    },
+    {
+      "id": 117,
+      "name": "Tennesine",
+      "symbol": "Ts",
+      "atomicWeight": 294,
+      "electronsPerShell": [2,8,18,32,32,18,7],
+      "category": "unknown"
+    },
+    {
+      "id": 118,
+      "name": "Oganesson",
+      "symbol": "Og",
+      "atomicWeight": 294,
+      "electronsPerShell": [2,8,18,32,32,18,8],
+      "category": "unknown"
+    }
+  ]
+}
