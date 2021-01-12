@@ -1,0 +1,32 @@
+body {
+  min-height: 95vh;
+  background-image: linear-gradient(#D4E5A3, #AFD07C);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#atomic-element-details {
+  padding: 1em;
+  margin: 1em;
+  border: solid black 2px;
+  background-image: url('https://www.jing.fm/clipimg/full/185-1853855_water-bubbles-transparent-png-transparent-background-bubbles-png.png');
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  animation: bubble 20s linear forwards;
+}
+
+@keyframes bubble {
+  0% {background-position: -50px 300%}
+  50% {background-position: -50px -300%}
+  99.5% {background-position: -50px -300%}
+  100% {background-position: -50px 300%}
+}
+
+#atomic-elements-container {
+  padding: 1em;
+  margin: 1em;
+  border: solid black 2px;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/19b27171-a173-48dc-b5dd-a069a0c57d9f/d5rx49p-52c2bc83-f2b7-4c44-952b-7b2c54e5cf47.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMTliMjcxNzEtYTE3My00OGRjLWI1ZGQtYTA2OWEwYzU3ZDlmXC9kNXJ4NDlwLTUyYzJiYzgzLWYyYjctNGM0NC05NTJiLTdiMmM1NGU1Y2Y0Ny5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.HEXjKK359P5z9Cam52eBroYrNAlaL_UydHGJHqjDl3s');
+  background-size: cover;
+}
