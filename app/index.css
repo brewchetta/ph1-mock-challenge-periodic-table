@@ -1,5 +1,9 @@
 /* General */
 
+* {
+  font-family: 'Fraunces', serif;
+}
+
 body {
   background-image: linear-gradient(#D4E5A3, #AFD07C);
   display: grid;
@@ -46,7 +50,7 @@ body {
   border: solid black 4px;
   border-radius: 3px;
   background: linear-gradient(#F60002, #9D1E2B);
-  cursor: pointer;
+  cursor: help;
   padding: 0.3em;
   margin: 0.5em;
   text-align: center;
