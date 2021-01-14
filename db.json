@@ -6,7 +6,7 @@
       "symbol": "H",
       "atomicWeight": 1.008,
       "electronsPerShell": [1],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 3,
@@ -14,7 +14,7 @@
       "symbol": "Li",
       "atomicWeight": 6.94,
       "electronsPerShell": [2,1],
-      "category": "alkali metal"
+      "category": "alkali-metals"
     },
     {
       "id": 11,
@@ -22,7 +22,7 @@
       "symbol": "Na",
       "atomicWeight": 22.990,
       "electronsPerShell": [2,8,1],
-      "category": "alkali metals"
+      "category": "alkali-metals"
     },
     {
       "id": 19,
@@ -30,7 +30,7 @@
       "symbol": "K",
       "atomicWeight": 39.098,
       "electronsPerShell": [2,8,8,1],
-      "category": "alkali metals"
+      "category": "alkali-metals"
     },
     {
       "id": 37,
@@ -38,7 +38,7 @@
       "symbol": "Rb",
       "atomicWeight": 85.468,
       "electronsPerShell": [2,8,8,1],
-      "category": "alkali metals"
+      "category": "alkali-metals"
     },
     {
       "id": 55,
@@ -46,7 +46,7 @@
       "symbol": "Cs",
       "atomicWeight": 132.91,
       "electronsPerShell": [2,8,18,18,8,1],
-      "category": "alkali metals"
+      "category": "alkali-metals"
     },
     {
       "id": 87,
@@ -54,7 +54,7 @@
       "symbol": "Fr",
       "atomicWeight": 223,
       "electronsPerShell": [2,8,18,32,18,8,1],
-      "category": "alkali metals"
+      "category": "alkali-metals"
     },
     {
       "id": 4,
@@ -62,7 +62,7 @@
       "symbol": "Be",
       "atomicWeight": 9.0122,
       "electronsPerShell": [2,2],
-      "category": "alkaline earth metal"
+      "category": "alkaline-earth-metals"
     },
     {
       "id": 12,
@@ -70,7 +70,7 @@
       "symbol": "Mg",
       "atomicWeight": 24.305,
       "electronsPerShell": [2,8,2],
-      "category": "alkaline earth metal"
+      "category": "alkaline-earth-metals"
     },
     {
       "id": 20,
@@ -78,7 +78,7 @@
       "symbol": "Ca",
       "atomicWeight": 40.078,
       "electronsPerShell": [2,8,8,2],
-      "category": "alkaline earth metal"
+      "category": "alkaline-earth-metals"
     },
     {
       "id": 38,
@@ -86,7 +86,7 @@
       "symbol": "Sr",
       "atomicWeight": 87.62,
       "electronsPerShell": [2,8,18,8,2],
-      "category": "alkaline earth metal"
+      "category": "alkaline-earth-metals"
     },
     {
       "id": 56,
@@ -94,7 +94,7 @@
       "symbol": "Ba",
       "atomicWeight": 137.33,
       "electronsPerShell": [2,8,18,18,8,2],
-      "category": "alkaline earth metal"
+      "category": "alkaline-earth-metals"
     },
     {
       "id": 88,
@@ -102,7 +102,7 @@
       "symbol": "Ra",
       "atomicWeight": 226,
       "electronsPerShell": [2,8,18,32,18,8,2],
-      "category": "alkaline earth metal"
+      "category": "alkaline-earth-metals"
     },
     {
       "id": 21,
@@ -110,7 +110,7 @@
       "symbol": "Sc",
       "atomicWeight": 44.956,
       "electronsPerShell": [2,8,9,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 39,
@@ -118,7 +118,7 @@
       "symbol": "Y",
       "atomicWeight": 88.906,
       "electronsPerShell": [2,8,18,9,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 22,
@@ -126,7 +126,7 @@
       "symbol": "Ti",
       "atomicWeight": 47.867,
       "electronsPerShell": [2,8,10,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 40,
@@ -134,7 +134,7 @@
       "symbol": "Zr",
       "atomicWeight": 91.224,
       "electronsPerShell": [2,8,18,10,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 72,
@@ -142,7 +142,7 @@
       "symbol": "Hf",
       "atomicWeight": 178.49,
       "electronsPerShell": [2,8,18,32,10,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 104,
@@ -150,7 +150,7 @@
       "symbol": "Rf",
       "atomicWeight": 267,
       "electronsPerShell": [2,8,18,32,32,10,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 23,
@@ -158,7 +158,7 @@
       "symbol": "V",
       "atomicWeight": 50.942,
       "electronsPerShell": [2,8,11,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 41,
@@ -166,7 +166,7 @@
       "symbol": "Nb",
       "atomicWeight": 92.906,
       "electronsPerShell": [2,8,18,12,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 73,
@@ -174,7 +174,7 @@
       "symbol": "Ta",
       "atomicWeight": 180.95,
       "electronsPerShell": [2,8,18,32,11,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 105,
@@ -182,7 +182,7 @@
       "symbol": "Db",
       "atomicWeight": 268,
       "electronsPerShell": [2,8,18,32,32,11,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 24,
@@ -190,7 +190,7 @@
       "symbol": "Cr",
       "atomicWeight": 51.996,
       "electronsPerShell": [2,8,13,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 42,
@@ -198,7 +198,7 @@
       "symbol": "Mo",
       "electronsPerShell": [2,8,18,13,1],
       "atomicWeight": 95.95,
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 74,
@@ -206,7 +206,7 @@
       "symbol": "W",
       "atomicWeight": 183.84,
       "electronsPerShell": [2,8,18,32,12,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 106,
@@ -214,7 +214,7 @@
       "symbol": "Sg",
       "atomicWeight": 269,
       "electronsPerShell": [2,8,18,32,32,12,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 25,
@@ -222,7 +222,7 @@
       "symbol": "Mn",
       "atomicWeight": 54.938,
       "electronsPerShell": [2,8,13,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 43,
@@ -230,7 +230,7 @@
       "symbol": "Tc",
       "atomicWeight": 98,
       "electronsPerShell": [2,8,18,13,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 75,
@@ -238,7 +238,7 @@
       "symbol": "Re",
       "atomicWeight": 186.21,
       "electronsPerShell": [2,8,18,32,13,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 107,
@@ -246,7 +246,7 @@
       "symbol": "Bh",
       "atomicWeight": 270,
       "electronsPerShell": [2,8,18,32,32,13,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 26,
@@ -254,7 +254,7 @@
       "symbol": "Fe",
       "atomicWeight": 55.845,
       "electronsPerShell": [2,8,14,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 44,
@@ -262,7 +262,7 @@
       "symbol": "Ru",
       "atomicWeight": 101.07,
       "electronsPerShell": [2,8,18,15,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 76,
@@ -270,7 +270,7 @@
       "symbol": "Os",
       "atomicWeight": 190.23,
       "electronsPerShell": [2,8,18,32,14,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 108,
@@ -278,7 +278,7 @@
       "symbol": "Hs",
       "atomicWeight": 277,
       "electronsPerShell": [2,8,18,32,32,14,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 27,
@@ -286,7 +286,7 @@
       "symbol": "Co",
       "atomicWeight": 58.933,
       "electronsPerShell": [2,8,15,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 45,
@@ -294,7 +294,7 @@
       "symbol": "Rh",
       "atomicWeight": 102.91,
       "electronsPerShell": [2,8,18,16,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 77,
@@ -302,7 +302,7 @@
       "symbol": "Ir",
       "atomicWeight": 192.22,
       "electronsPerShell": [2,8,18,32,15,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 28,
@@ -310,7 +310,7 @@
       "symbol": "Ni",
       "atomicWeight": 58.693,
       "electronsPerShell": [2,8,16,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 46,
@@ -318,7 +318,7 @@
       "symbol": "Pd",
       "atomicWeight": 106.42,
       "electronsPerShell": [2,8,18,18],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 78,
@@ -326,7 +326,7 @@
       "symbol": "Pt",
       "atomicWeight": 195.08,
       "electronsPerShell": [2,8,18,32,17,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 29,
@@ -334,7 +334,7 @@
       "symbol": "Cu",
       "atomicWeight": 63.546,
       "electronsPerShell": [2,8,18,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 47,
@@ -342,7 +342,7 @@
       "symbol": "Ag",
       "atomicWeight": 107.87,
       "electronsPerShell": [2,8,18,18,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 79,
@@ -350,7 +350,7 @@
       "symbol": "Au",
       "atomicWeight": 196.97,
       "electronsPerShell": [2,8,18,32,18,1],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 30,
@@ -358,7 +358,7 @@
       "symbol": "Zn",
       "atomicWeight": 65.38,
       "electronsPerShell": [2,8,18,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 48,
@@ -366,7 +366,7 @@
       "symbol": "Cd",
       "atomicWeight": 112.41,
       "electronsPerShell": [2,8,18,18,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 80,
@@ -374,7 +374,7 @@
       "symbol": "Hg",
       "atomicWeight": 200.59,
       "electronsPerShell": [2,8,18,32,18,2],
-      "category": "transition metal"
+      "category": "transition-metals"
     },
     {
       "id": 13,
@@ -382,7 +382,7 @@
       "symbol": "Al",
       "atomicWeight": 26.982,
       "electronsPerShell": [2,8,3],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 31,
@@ -390,7 +390,7 @@
       "symbol": "Ga",
       "atomicWeight": 69.723,
       "electronsPerShell": [2,8,18,3],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 49,
@@ -398,7 +398,7 @@
       "symbol": "In",
       "atomicWeight": 114.82,
       "electronsPerShell": [2,8,18,18,3],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 81,
@@ -406,7 +406,7 @@
       "symbol": "Tl",
       "atomicWeight": 204.38,
       "electronsPerShell": [2,8,18,32,18,3],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 50,
@@ -414,7 +414,7 @@
       "symbol": "Sn",
       "atomicWeight": 118.71,
       "electronsPerShell": [2,8,18,18,4],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 82,
@@ -422,7 +422,7 @@
       "symbol": "Pb",
       "atomicWeight": 207.2,
       "electronsPerShell": [2,8,18,32,18,4],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 83,
@@ -430,7 +430,7 @@
       "symbol": "Bi",
       "atomicWeight": 208.98,
       "electronsPerShell": [2,8,18,32,18,5],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 84,
@@ -438,7 +438,7 @@
       "symbol": "Po",
       "atomicWeight": 209,
       "electronsPerShell": [2,8,18,32,18,6],
-      "category": "post-transition metal"
+      "category": "post-transition-metals"
     },
     {
       "id": 5,
@@ -446,7 +446,7 @@
       "symbol": "B",
       "atomicWeight": 10.81,
       "electronsPerShell": [2,3],
-      "category": "metalloid"
+      "category": "metalloids"
     },
     {
       "id": 14,
@@ -454,7 +454,7 @@
       "symbol": "Si",
       "atomicWeight": 28.085,
       "electronsPerShell": [2,8,4],
-      "category": "metalloid"
+      "category": "metalloids"
     },
     {
       "id": 32,
@@ -462,7 +462,7 @@
       "symbol": "Ge",
       "atomicWeight": 72.630,
       "electronsPerShell": [2,8,18,4],
-      "category": "metalloid"
+      "category": "metalloids"
     },
     {
       "id": 33,
@@ -470,7 +470,7 @@
       "symbol": "As",
       "atomicWeight": 74.922,
       "electronsPerShell": [2,8,18,5],
-      "category": "metalloid"
+      "category": "metalloids"
     },
     {
       "id": 51,
@@ -478,7 +478,7 @@
       "symbol": "Sb",
       "atomicWeight": 121.76,
       "electronsPerShell": [2,8,18,18,5],
-      "category": "metalloid"
+      "category": "metalloids"
     },
     {
       "id": 52,
@@ -486,7 +486,7 @@
       "symbol": "Te",
       "atomicWeight": 127.60,
       "electronsPerShell": [2,8,18,18,6],
-      "category": "metalloid"
+      "category": "metalloids"
     },
     {
       "id": 85,
@@ -494,7 +494,7 @@
       "symbol": "At",
       "atomicWeight": 210,
       "electronsPerShell": [2,8,18,32,18,7],
-      "category": "metalloid"
+      "category": "metalloids"
     },
     {
       "id": 6,
@@ -502,7 +502,7 @@
       "symbol": "C",
       "atomicWeight": 12.011,
       "electronsPerShell": [2,4],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 7,
@@ -510,7 +510,7 @@
       "symbol": "N",
       "atomicWeight": 14.007,
       "electronsPerShell": [2,5],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 8,
@@ -518,7 +518,7 @@
       "symbol": "O",
       "atomicWeight": 15.999,
       "electronsPerShell": [2,6],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 9,
@@ -526,7 +526,7 @@
       "symbol": "F",
       "atomicWeight": 18.998,
       "electronsPerShell": [2,7],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 17,
@@ -534,7 +534,7 @@
       "symbol": "Cl",
       "atomicWeight": 35.45,
       "electronsPerShell": [2,8,7],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 16,
@@ -542,7 +542,7 @@
       "symbol": "S",
       "atomicWeight": 32.06,
       "electronsPerShell": [2,8,6],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 15,
@@ -550,7 +550,7 @@
       "symbol": "P",
       "atomicWeight": 30.974,
       "electronsPerShell": [2,8,5],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 34,
@@ -558,7 +558,7 @@
       "symbol": "Se",
       "atomicWeight": 78.971,
       "electronsPerShell": [2,8,18,6],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 35,
@@ -566,7 +566,7 @@
       "symbol": "Br",
       "atomicWeight": 79.904,
       "electronsPerShell": [2,8,18,7],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 53,
@@ -574,7 +574,7 @@
       "symbol": "I",
       "atomicWeight": 126.90,
       "electronsPerShell": [2,8,18,18,7],
-      "category": "reactive non-metal"
+      "category": "reactive-non-metals"
     },
     {
       "id": 2,
@@ -582,7 +582,7 @@
       "symbol": "He",
       "atomicWeight": 4.0026,
       "electronsPerShell": [2],
-      "category": "noble gas"
+      "category": "noble-gases"
     },
     {
       "id": 10,
@@ -590,7 +590,7 @@
       "symbol": "Ne",
       "atomicWeight": 20.180,
       "electronsPerShell": [2,8],
-      "category": "noble gas"
+      "category": "noble-gases"
     },
     {
       "id": 18,
@@ -598,7 +598,7 @@
       "symbol": "Ar",
       "atomicWeight": 39.948,
       "electronsPerShell": [2,8,8],
-      "category": "noble gas"
+      "category": "noble-gases"
     },
     {
       "id": 36,
@@ -606,7 +606,7 @@
       "symbol": "Kr",
       "atomicWeight": 83.798,
       "electronsPerShell": [2,8,18,8],
-      "category": "noble gas"
+      "category": "noble-gases"
     },
     {
       "id": 54,
@@ -614,7 +614,7 @@
       "symbol": "Xe",
       "atomicWeight": 131.29,
       "electronsPerShell": [2,8,18,18,8],
-      "category": "noble gas"
+      "category": "noble-gases"
     },
     {
       "id": 86,
@@ -622,7 +622,7 @@
       "symbol": "Rn",
       "atomicWeight": 222,
       "electronsPerShell": [2,8,18,32,18,8],
-      "category": "noble gas"
+      "category": "noble-gases"
     },
     {
       "id": 57,
@@ -630,7 +630,7 @@
       "symbol": "La",
       "atomicWeight": 138.91,
       "electronsPerShell": [2,8,18,18,9,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 58,
@@ -638,7 +638,7 @@
       "symbol": "Ce",
       "atomicWeight": 140.12,
       "electronsPerShell": [2,8,18,19,9,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 59,
@@ -646,7 +646,7 @@
       "symbol": "Pr",
       "atomicWeight": 140.91,
       "electronsPerShell": [2,8,18,21,8],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 60,
@@ -654,7 +654,7 @@
       "symbol": "Nd",
       "atomicWeight": 144.24,
       "electronsPerShell": [2,8,18,22,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 61,
@@ -662,7 +662,7 @@
       "symbol": "Pm",
       "atomicWeight": 145,
       "electronsPerShell": [2,8,18,23,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 62,
@@ -670,7 +670,7 @@
       "symbol": "Sm",
       "atomicWeight": 150.36,
       "electronsPerShell": [2,8,18,24,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 63,
@@ -678,7 +678,7 @@
       "symbol": "Eu",
       "atomicWeight": 151.96,
       "electronsPerShell": [2,8,18,25,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 64,
@@ -686,7 +686,7 @@
       "symbol": "Gd",
       "atomicWeight": 157.25,
       "electronsPerShell": [2,8,18,25,9,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 65,
@@ -694,7 +694,7 @@
       "symbol": "Tb",
       "atomicWeight": 158.93,
       "electronsPerShell": [2,8,18,27,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 66,
@@ -702,7 +702,7 @@
       "symbol": "Dy",
       "atomicWeight": 162.50,
       "electronsPerShell": [2,8,18,28,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 67,
@@ -710,7 +710,7 @@
       "symbol": "Ho",
       "atomicWeight": 164.93,
       "electronsPerShell": [2,8,18,29,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 68,
@@ -718,7 +718,7 @@
       "symbol": "Er",
       "atomicWeight": 167.26,
       "electronsPerShell": [2,8,18,30,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 69,
@@ -726,7 +726,7 @@
       "symbol": "Tm",
       "atomicWeight": 168.93,
       "electronsPerShell": [2,8,18,31,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 70,
@@ -734,7 +734,7 @@
       "symbol": "Yb",
       "atomicWeight": 173.05,
       "electronsPerShell": [2,8,18,32,8,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 71,
@@ -742,7 +742,7 @@
       "symbol": "Lu",
       "atomicWeight": 174.97,
       "electronsPerShell": [2,8,18,32,9,2],
-      "category": "lanthanoid"
+      "category": "lanthanoids"
     },
     {
       "id": 89,
@@ -750,7 +750,7 @@
       "symbol": "Ac",
       "atomicWeight": 227,
       "electronsPerShell": [2,8,18,32,18,9,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 90,
@@ -758,7 +758,7 @@
       "symbol": "Th",
       "atomicWeight": 232.04,
       "electronsPerShell": [2,8,18,32,18,19,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 91,
@@ -766,7 +766,7 @@
       "symbol": "Pa",
       "atomicWeight": 231.04,
       "electronsPerShell": [2,8,18,32,20,9,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 92,
@@ -774,7 +774,7 @@
       "symbol": "U",
       "atomicWeight": 238.03,
       "electronsPerShell": [2,8,18,32,21,9,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 93,
@@ -782,7 +782,7 @@
       "symbol": "Np",
       "atomicWeight": 237,
       "electronsPerShell": [2,8,18,32,22,9,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 94,
@@ -790,7 +790,7 @@
       "symbol": "Pu",
       "atomicWeight": 244,
       "electronsPerShell": [2,8,18,32,24,8,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 95,
@@ -798,7 +798,7 @@
       "symbol": "Am",
       "atomicWeight": 243,
       "electronsPerShell": [2,8,18,32,25,8,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 96,
@@ -806,7 +806,7 @@
       "symbol": "Cm",
       "atomicWeight": 247,
       "electronsPerShell": [2,8,18,32,25,9,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 97,
@@ -814,7 +814,7 @@
       "symbol": "Bk",
       "atomicWeight": 247,
       "electronsPerShell": [2,8,18,32,27,8,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 98,
@@ -822,7 +822,7 @@
       "symbol": "Cf",
       "atomicWeight": 251,
       "electronsPerShell": [2,8,18,32,28,8,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 99,
@@ -830,7 +830,7 @@
       "symbol": "Es",
       "atomicWeight": 252,
       "electronsPerShell": [2,8,18,32,29,8,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 100,
@@ -838,7 +838,7 @@
       "symbol": "Fm",
       "atomicWeight": 257,
       "electronsPerShell": [2,8,18,32,30,8,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 101,
@@ -846,7 +846,7 @@
       "symbol": "Md",
       "atomicWeight": 258,
       "electronsPerShell": [2,8,18,32,31,8,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 102,
@@ -854,7 +854,7 @@
       "symbol": "No",
       "atomicWeight": 259,
       "electronsPerShell": [2,8,18,32,32,9,2],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 103,
@@ -862,7 +862,7 @@
       "symbol": "Lr",
       "atomicWeight": 266,
       "electronsPerShell": [2,8,18,32,32,8,3],
-      "category": "actinoid"
+      "category": "actinoids"
     },
     {
       "id": 109,
@@ -870,7 +870,7 @@
       "symbol": "Mt",
       "atomicWeight": 278,
       "electronsPerShell": [2,8,18,32,32,15,2],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 110,
@@ -878,7 +878,7 @@
       "symbol": "Ds",
       "atomicWeight": 281,
       "electronsPerShell": [2,8,18,32,32,17,1],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 111,
@@ -886,7 +886,7 @@
       "symbol": "Rg",
       "atomicWeight": 282,
       "electronsPerShell": [2,8,18,32,32,17,2],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 112,
@@ -894,7 +894,7 @@
       "symbol": "Cn",
       "atomicWeight": 285,
       "electronsPerShell": [2,8,18,32,32,18,2],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 113,
@@ -902,7 +902,7 @@
       "symbol": "Nh",
       "atomicWeight": 286,
       "electronsPerShell": [2,8,18,32,32,18,3],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 114,
@@ -910,7 +910,7 @@
       "symbol": "Fl",
       "atomicWeight": 289,
       "electronsPerShell": [2,8,18,32,32,18,4],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 115,
@@ -918,7 +918,7 @@
       "symbol": "Mc",
       "atomicWeight": 290,
       "electronsPerShell": [2,8,18,32,32,19,5],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 116,
@@ -926,7 +926,7 @@
       "symbol": "Lv",
       "atomicWeight": 293,
       "electronsPerShell": [2,8,18,32,32,18,6],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 117,
@@ -934,7 +934,7 @@
       "symbol": "Ts",
       "atomicWeight": 294,
       "electronsPerShell": [2,8,18,32,32,18,7],
-      "category": "unknown"
+      "category": "unknowns"
     },
     {
       "id": 118,
@@ -942,7 +942,7 @@
       "symbol": "Og",
       "atomicWeight": 294,
       "electronsPerShell": [2,8,18,32,32,18,8],
-      "category": "unknown"
+      "category": "unknowns"
     }
   ]
 }
