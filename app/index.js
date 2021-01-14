@@ -35,6 +35,7 @@ class AtomicElement {
     this.category = obj.category
     // next we build the HTML element
     this.createHTMLElement()
+    this.constructor.all.push(this)
   }
 
   createHTMLElement() {
