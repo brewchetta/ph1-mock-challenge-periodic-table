@@ -25,6 +25,16 @@ class AtomicElement {
     // I've chosen to sort the data as it comes in so I won't have to worry about it later
   }
 
+  static filterByCategory(category) {
+    this.all.forEach(el => {
+      if (el.category === category || category === "all") {
+        this.html.style.display = "block"
+      } else {
+        this.html.style.display = "none"
+      }
+    })
+  }
+
   constructor(obj) {
     // There's a way to do mass assignment however I've chosen to assign each property individually for clarity
     this.id = obj.id
