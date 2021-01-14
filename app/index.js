@@ -39,16 +39,16 @@ class AtomicElement {
   }
 
   createHTMLElement() {
-    this.htmlElement = document.createElement('div')
-    this.htmlElement.className = "atomic-element-card"
+    this.html = document.createElement('div')
+    this.html.className = "atomic-element-card"
     const pID = document.createElement('p')
     pID.innerText = this.atomicNumber
     const pSymbol = document.createElement('p')
     pSymbol.innerText = this.symbol
-    this.htmlElement.append(pID, pSymbol)
+    this.html.append(pID, pSymbol)
     // we can append multiple elements at the same time
-    this.htmlElement.addEventListener("mouseenter", this.handleMouseEnter.bind(this))
-    atomicElementsContainer.append(this.htmlElement)
+    this.html.addEventListener("mouseenter", this.handleMouseEnter.bind(this))
+    atomicElementsContainer.append(this.html)
   }
 
   handleMouseEnter(event) {
