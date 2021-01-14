@@ -43,17 +43,13 @@ static all = []
 
 Inside the constructor, push the newly created 'instance' of an element into `all`. Remember that since this is a static property, it'll be `AtomicElements.all`.
 
-Next you'll need a few different static getters for different attributes:
-
-- You'll need a static method that returns the elements in order of their id's (they're currently very out of order). You should be able to call something similar to `AtomicElements.orderedList`.
-
-- You'll need static getters that return the elements for each different category: `nobleGases, alkaliMetals, alkalineEarthMetals, transitionMetals, postTransitionMetals, metalloids, reactiveNonMetals, lanthanoids, actinoids, unknowns`. Ideally you should be able to call `AtomicElements.alkaliMetals` and get an array returned of all the elements that have a category of `alkali metals`.
+You'll need some way to filter by category, allowing you to show all the matching elements for a category in the html and hide the rest. See additional functionality below.
 
 ## Additional Functionality
 
-When someone selects an category in the dropdown, all elements that aren't of the category are hidden and elements of the category are shown. If `all` is selected, show all the elements. It's encouraged that you build this as a method inside the class.
-
 When someone hovers their mouse over an `atomic-element-card`, it shows all the details for that element in the `div#atomic-element-details`. For `electrons per shell` it's alright to change the array to a string and just display that (don't overthink it).
+
+When someone selects a category in the `#category-select` dropdown, all elements that aren't of the category are hidden and elements of the category are shown. If `all` is selected, show all the elements. Utilize a static method to handle this functionality.
 
 ## BONUS
 
