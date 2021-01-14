@@ -1,7 +1,8 @@
 // Global Constants //
 
 const PORT = 3000
-const URL = `http://locahost:${PORT}/elements`
+const URL = `http://localhost:${PORT}/elements`
+const parseJSON = res => res.json()
 
 // HTML Elements
 
@@ -14,8 +15,15 @@ class AtomicElement {
 
   static all = []
 
-  constructor() {
-    // Add your constructor functionality here!
+  static fetchElements() {
+    fetch(URL).then(parseJSON)
+    .then(data => data.forEach(el => new AtomicElement(el)))
+  }
+
+  constructor(elementObject) {
+    console.log(elementObject)
   }
 
 }
+
+AtomicElement.fetchElements()
