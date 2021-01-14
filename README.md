@@ -47,7 +47,7 @@ Next you'll need a few different static getters for different attributes:
 
 - You'll need a static method that returns the elements in order of their id's (they're currently very out of order). You should be able to call something similar to `AtomicElements.orderedList`.
 
-- You'll need static getters that return the elements for each different category: `nobleGases, alkaliMetals, alkalineEarthMetals, transitionMetals, postTransitionMetals, metalloids, reactiveNonMetals, nobleGases`. Ideally you should be able to call `AtomicElements.alkaliMetals` and get an array returned of all the elements that have a category of `alkali metals`.
+- You'll need static getters that return the elements for each different category: `nobleGases, alkaliMetals, alkalineEarthMetals, transitionMetals, postTransitionMetals, metalloids, reactiveNonMetals, lanthanoids, actinoids, unknowns`. Ideally you should be able to call `AtomicElements.alkaliMetals` and get an array returned of all the elements that have a category of `alkali metals`.
 
 ## Additional Functionality
 
