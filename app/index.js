@@ -22,9 +22,9 @@ class AtomicElement {
 
   static all = []
 
-  // I've chosen to sort the data as it comes in so I won't have to worry about it later
   static fetchElements() {
     fetch(URL).then(parseJSON)
+    // I've chosen to sort the data as it comes in so I won't have to worry about it later
     .then(data => {
       data
       .sort(sortById)
@@ -34,6 +34,7 @@ class AtomicElement {
 
   static filterByCategory(category) {
     this.all.forEach(el => {
+      // it would also be easy to make this a ternary, I'm just using an if / else for clarity
       if (el.category === category || category === "all") {
         el.html.style.display = "block"
       } else {
@@ -45,7 +46,7 @@ class AtomicElement {
   // CONSTRUCTOR //
 
   constructor(obj) {
-    // There's a way to do mass assignment however I've chosen to assign each property individually for clarity
+    // There's a way to do mass assignment however I've chosen this solution for clarity
     this.id = obj.id
     this.name = obj.name
     this.symbol = obj.symbol
@@ -59,20 +60,24 @@ class AtomicElement {
   createHTMLElement() {
     this.html = document.createElement('div')
     this.html.className = "atomic-element-card"
+
     const pID = document.createElement('p')
     pID.innerText = this.atomicNumber
+
     const pSymbol = document.createElement('p')
     pSymbol.innerText = this.symbol
+
     this.html.append(pID, pSymbol)
-    // we can append multiple elements at the same time
-    this.html.addEventListener("mouseenter", this.handleMouseEnter.bind(this))
     atomicElementsContainer.append(this.html)
+
+    // by binding the callback, we're able to directly reference the class object
+    this.html.addEventListener("mouseenter", this.handleMouseEnter.bind(this))
   }
 
   // EVENT HANDLERS //
 
   handleMouseEnter(event) {
-    // since we bound the callback to the AtomicElement class object, we can reference it directly here
+    // normally `this` would be the element that triggered the object but we've bound it to the class object instead
     const details = atomicElementDetails.querySelectorAll('p')
     details[0].innerText = this.atomicNumber
     details[1].innerText = this.name
@@ -90,5 +95,6 @@ class AtomicElement {
 
 }
 
+// Once our class has been created, we fetch the elements and add an event listener to the category selector
 AtomicElement.fetchElements()
 categorySelector.addEventListener("change", event => AtomicElement.filterByCategory(event.target.value))
