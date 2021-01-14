@@ -51,8 +51,9 @@ body {
   border-radius: 3px;
   background: linear-gradient(#F60002, #9D1E2B);
   cursor: help;
-  padding: 0.3em;
+  height: 150px;
   margin: 0.5em;
+  padding: 0.3em;
   text-align: center;
 }
 
