@@ -57,6 +57,11 @@ body {
   text-align: center;
 }
 
+.atomic-element-card:hover {
+  border-color: white;
+  color: white;
+}
+
 .atomic-element-card p {
   font-size: 2em;
   margin: none;
