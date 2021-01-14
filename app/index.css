@@ -55,6 +55,7 @@ body {
   margin: 0.5em;
   padding: 0.3em;
   text-align: center;
+  transition: border-color 1s, color 0.3s;
 }
 
 .atomic-element-card:hover {
