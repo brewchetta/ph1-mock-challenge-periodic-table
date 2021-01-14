@@ -1,7 +1,7 @@
 // Global Constants //
 
 const PORT = 3000
-const URL = `http://locahost:${PORT}/elements`
+const URL = `http://localhost:${PORT}/elements`
 
 // HTML Elements
 
