@@ -17,12 +17,18 @@ const sortById = (a,b) => a.id - b.id
 
 class AtomicElement {
 
+  // STATIC PROPERTIES //
+
   static all = []
 
+  // I've chosen to sort the data as it comes in so I won't have to worry about it later
   static fetchElements() {
     fetch(URL).then(parseJSON)
-    .then(data => data.sort(sortById).forEach(el => new AtomicElement(el)))
-    // I've chosen to sort the data as it comes in so I won't have to worry about it later
+    .then(data => {
+      data
+      .sort(sortById)
+      .forEach(el => new AtomicElement(el))
+    })
   }
 
   static filterByCategory(category) {
@@ -35,6 +41,8 @@ class AtomicElement {
     })
   }
 
+  // CONSTRUCTOR //
+
   constructor(obj) {
     // There's a way to do mass assignment however I've chosen to assign each property individually for clarity
     this.id = obj.id
@@ -43,7 +51,6 @@ class AtomicElement {
     this.atomicWeight = obj.atomicWeight
     this.electronsPerShell = obj.electronsPerShell
     this.category = obj.category
-    // next we build the HTML element
     this.createHTMLElement()
     this.constructor.all.push(this)
   }
@@ -61,6 +68,8 @@ class AtomicElement {
     atomicElementsContainer.append(this.html)
   }
 
+  // EVENT HANDLERS //
+
   handleMouseEnter(event) {
     // since we bound the callback to the AtomicElement class object, we can reference it directly here
     const details = atomicElementDetails.querySelectorAll('p')
@@ -72,7 +81,8 @@ class AtomicElement {
     details[5].innerText = this.electronsPerShell.toString()
   }
 
-  // Adding alternate getter for atomic number
+  // GETTERS //
+
   get atomicNumber() {
     return this.id
   }
