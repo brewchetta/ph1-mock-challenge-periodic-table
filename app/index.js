@@ -8,6 +8,7 @@ const parseJSON = res => res.json()
 
 const atomicElementDetails = document.querySelector('#atomic-element-details')
 const atomicElementsContainer = document.querySelector('#atomic-elements-container')
+const categorySelector = document.querySelector('#category-select')
 
 // Helper Functions //
 
