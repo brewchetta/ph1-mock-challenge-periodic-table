@@ -4,10 +4,14 @@ const PORT = 3000
 const URL = `http://localhost:${PORT}/elements`
 const parseJSON = res => res.json()
 
-// HTML Elements
+// HTML Elements //
 
 const atomicElementDetails = document.querySelector('#atomic-element-details')
 const atomicElementsContainer = document.querySelector('#atomic-elements-container')
+
+// Helper Functions //
+
+const sortById = (a,b) => a.id - b.id
 
 // Atomic Element Class //
 
@@ -17,7 +21,8 @@ class AtomicElement {
 
   static fetchElements() {
     fetch(URL).then(parseJSON)
-    .then(data => data.forEach(el => new AtomicElement(el)))
+    .then(data => data.sort(sortById).forEach(el => new AtomicElement(el)))
+    // I've chosen to sort the data as it comes in so I won't have to worry about it later
   }
 
   constructor(obj) {
@@ -40,7 +45,20 @@ class AtomicElement {
     const pSymbol = document.createElement('p')
     pSymbol.innerText = this.symbol
     this.htmlElement.append(pID, pSymbol)
+    // we can append multiple elements at the same time
+    this.htmlElement.addEventListener("mouseenter", this.handleMouseEnter.bind(this))
     atomicElementsContainer.append(this.htmlElement)
+  }
+
+  handleMouseEnter(event) {
+    // since we bound the callback to the AtomicElement class object, we can reference it directly here
+    const details = atomicElementDetails.querySelectorAll('p')
+    details[0].innerText = this.atomicNumber
+    details[1].innerText = this.name
+    details[2].innerText = this.symbol
+    details[3].innerText = this.category
+    details[4].innerText = this.atomicWeight
+    details[5].innerText = this.electronsPerShell.toString()
   }
 
   // Adding alternate getter for atomic number
