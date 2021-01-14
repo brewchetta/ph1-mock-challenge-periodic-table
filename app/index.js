@@ -91,3 +91,4 @@ class AtomicElement {
 }
 
 AtomicElement.fetchElements()
+categorySelector.addEventListener("change", event => AtomicElement.filterByCategory(event.target.value))
