@@ -35,9 +35,9 @@ class AtomicElement {
   static filterByCategory(category) {
     this.all.forEach(el => {
       if (el.category === category || category === "all") {
-        this.html.style.display = "block"
+        el.html.style.display = "block"
       } else {
-        this.html.style.display = "none"
+        el.html.style.display = "none"
       }
     })
   }
