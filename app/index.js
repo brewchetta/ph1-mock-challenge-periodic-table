@@ -72,6 +72,7 @@ class AtomicElement {
 
     // by binding the callback, we're able to directly reference the class object
     this.html.addEventListener("mouseenter", this.handleMouseEnter.bind(this))
+    this.html.addEventListener("mouseleave", this.handleMouseLeave.bind(this))
   }
 
   // EVENT HANDLERS //
@@ -85,6 +86,17 @@ class AtomicElement {
     details[3].innerText = this.category
     details[4].innerText = this.atomicWeight
     details[5].innerText = this.electronsPerShell.toString()
+  }
+
+  handleMouseLeave(event) {
+    // it might be nice to reset the window after leave an element
+    const details = atomicElementDetails.querySelectorAll('p')
+    details[0].innerText = 'atomic number'
+    details[1].innerText = 'name'
+    details[2].innerText = 'symbol'
+    details[3].innerText = 'category'
+    details[4].innerText = 'atomic weight'
+    details[5].innerText = 'electrons per shell'
   }
 
   // GETTERS //
