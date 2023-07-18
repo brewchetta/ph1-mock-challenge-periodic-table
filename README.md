@@ -1,8 +1,6 @@
-# Pair Programming Challenge - Periodic Table of Elements
+# Mock Challenge - Periodic Table of Elements
 
-Your task today is to complete a digital periodic table of elements. Some code has already been constructed however the table itself is blank and needs to be filled in with data. Notably, you and your partner(s) will be using OOJS and class syntax to track and fill in each atomic element.
-
-The idea is you'll use a class that automatically tracks a corresponding html element and manipulates it as need be. Since this is the case, handle as much of the DOM manipulation through the class itself as you can.
+Your task today is to complete a digital periodic table of elements. Some code has already been constructed however the table itself is blank and needs to be filled in with data. This will test your ability to use DOM manipulation (there is only one fetch request).
 
 ## Getting Started
 
@@ -37,4 +35,4 @@ HINT: To make this work, you can change a card's style to `display: none` rather
 
 ## BONUS - Sort Elements
 
-When the element cards are created, find a way to sort the elements on the DOM so that they're in order of their atomic number (id).
+When the element cards are created, find a way to sort the elements before you add them to the the DOM so that they're in order of their atomic number (id).
