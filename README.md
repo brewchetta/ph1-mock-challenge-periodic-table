@@ -1,4 +1,4 @@
-# Mock Challenge - Periodic Table of Elements
+# Practice Challenge - Periodic Table of Elements
 
 Your task today is to complete a digital periodic table of elements. Some code has already been constructed however the table itself is blank and needs to be filled in with data. This will test your ability to use DOM manipulation (there is only one fetch request).
 
