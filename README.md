@@ -25,14 +25,14 @@ First, fetch the data from `db.json` which should return an array of objects. Fo
 
 When someone hovers their mouse over an `atomic-element-card`, it shows all the details for that element in the `div#atomic-element-details`. For `electrons per shell` it's alright to change the array to a string and just display that (don't overthink it).
 
-## BONUS - Filter Elements By Type
+## BONUS - Sort Elements
+
+When the element cards are created, find a way to sort the elements before you add them to the the DOM so that they're in order of their atomic number (id).
+
+## SUPER BONUS - Filter Elements By Type
 
 When someone selects a category in the `#category-select` dropdown, all elements that aren't part of the category are hidden and only elements of the category are shown (so for example if `alkali-metals` is selected then only elements that are `alkali-metals` get shown).
 
 If `all` is selected, show all the elements.
 
 HINT: To make this work, you can change a card's style to `display: none` rather than deleting the card itself! There are also other ways to do this.
-
-## BONUS - Sort Elements
-
-When the element cards are created, find a way to sort the elements before you add them to the the DOM so that they're in order of their atomic number (id).
