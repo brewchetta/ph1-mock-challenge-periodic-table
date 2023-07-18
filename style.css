@@ -38,6 +38,7 @@ body {
   border: solid black 2px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 1em;
   padding: 1em;
   max-height: 80vh;
