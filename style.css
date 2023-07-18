@@ -33,11 +33,11 @@ body {
 
 #atomic-elements-container {
   background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/19b27171-a173-48dc-b5dd-a069a0c57d9f/d5rx49p-52c2bc83-f2b7-4c44-952b-7b2c54e5cf47.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMTliMjcxNzEtYTE3My00OGRjLWI1ZGQtYTA2OWEwYzU3ZDlmXC9kNXJ4NDlwLTUyYzJiYzgzLWYyYjctNGM0NC05NTJiLTdiMmM1NGU1Y2Y0Ny5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.HEXjKK359P5z9Cam52eBroYrNAlaL_UydHGJHqjDl3s');
-  background-size: 100%;
+  background-size: cover;
   background-position: top;
   border: solid black 2px;
-  display: grid;
-  grid-template-columns: repeat(8,1fr);
+  display: flex;
+  flex-wrap: wrap;
   margin: 1em;
   padding: 1em;
   max-height: 80vh;
